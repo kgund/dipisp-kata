@@ -13,14 +13,8 @@ public class RobotWorkerTest {
     }
 
     @Test
-    public void testRobotWorkerEats() {
-        String eats = worker.eat();
-        Assertions.assertEquals("RobotWorker Eating", eats);
-    }
-
-    @Test
     public void testRobotWorkerWorks() {
         String works = worker.work();
-        Assertions.assertEquals("RobotWorker Working",works);
+        Assertions.assertEquals("RobotWorker Working", works);
     }
 }
