@@ -10,7 +10,7 @@ public class ManagerTest {
         Manager manager = new Manager();
         manager.setWorker(new JuniorWorker());
         String work = manager.manage();
-        Assertions.assertEquals("JuniorWorker Works", manager.manage());
+        Assertions.assertEquals("JuniorWorker Working", manager.manage());
     }
 
     @Test
@@ -18,7 +18,7 @@ public class ManagerTest {
         Manager manager = new Manager();
         manager.setWorker(new SuperWorker());
         String work = manager.manage();
-        Assertions.assertEquals("SuperWorker Works", manager.manage());
+        Assertions.assertEquals("SuperWorker Working", manager.manage());
     }
 
     @Test
@@ -26,6 +26,6 @@ public class ManagerTest {
         Manager manager = new Manager();
         manager.setWorker(new SuperWorker());
         String work = manager.manage();
-        Assertions.assertEquals("SuperWorker Works", manager.manage());
+        Assertions.assertEquals("SuperWorker Working", manager.manage());
     }
 }
