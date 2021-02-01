@@ -9,7 +9,6 @@ public class Manager {
     }
 
     public String manage() {
-        worker.work();
-        return null;
+        return worker.work();
     }
 }
