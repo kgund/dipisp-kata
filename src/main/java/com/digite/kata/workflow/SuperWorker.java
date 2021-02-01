@@ -4,11 +4,11 @@ public class SuperWorker implements Worker{
 
     public String work() {
         //.... working much more
-        return null;
+        return "SuperWorker Working";
     }
 
     public String eat() {
         //.... eating in launch break
-        return null;
+        return "SuperWorker Eating";
     }
 }
