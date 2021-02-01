@@ -1,6 +1,6 @@
 package com.digite.kata.workflow;
 
-public class JuniorWorker implements Worker{
+public class JuniorWorker implements Worker, Eater {
 
     public String work() {
         // ....working
