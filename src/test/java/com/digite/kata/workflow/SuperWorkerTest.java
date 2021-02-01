@@ -21,6 +21,6 @@ public class SuperWorkerTest {
     @Test
     public void testSuperWorkerWorks() {
         String works = worker.work();
-        Assertions.assertEquals("SuperWorker Working",works);
+        Assertions.assertEquals("SuperWorker Working", works);
     }
 }

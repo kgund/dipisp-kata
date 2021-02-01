@@ -8,7 +8,8 @@ public class Manager {
         this.worker=worker;
     }
 
-    public void manage() {
+    public String manage() {
         worker.work();
+        return null;
     }
 }
